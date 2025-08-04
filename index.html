@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For Nompumelelo 💖</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+      text-align: center;
+      padding-top: 60px;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #cc3366;
+    }
+    .note {
+      font-size: 1.5em;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌸 For Nompumelelo 🌸</h1>
+  <p class="note" id="message"></p>
+
+  <script>
+    const messages = [
+      "Your smile increases my frame rate 😊",
+      "You're the CSS to my HTML 💖",
+      "If you were code, you'd never throw an exception 🧠",
+      "I'd commit to you every day 💍",
+      "You're the final semicolon to my line of happiness ✨"
+    ];
+    const random = messages[Math.floor(Math.random() * messages.length)];
+    document.getElementById('message').textContent = random;
+  </script>
+</body>
+</html>
