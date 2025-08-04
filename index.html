@@ -17,6 +17,7 @@
     .note {
       font-size: 1.5em;
       margin-top: 30px;
+      white-space: pre-line; 
     }
   </style>
 </head>
@@ -26,16 +27,15 @@
 
   <script>
     const messages = [
-      "I had to learn how to code in HTML to write you this.😭
-",
+      "I had to learn how to code in HTML to write you this.😭",
       "I might not be the best at expressing myself but I really do care. ❤",
       "Stufuza. ❤",
-      "You not kissing me hurts.😭
-",
-      "Let us get it right this time, don't let the traumas of the past affect us. "
+      "You not kissing me hurts.😭",
+      "Let us get it right this time.\nDon't let the traumas of the past affect us."
     ];
     const random = messages[Math.floor(Math.random() * messages.length)];
     document.getElementById('message').textContent = random;
   </script>
 </body>
 </html>
+
